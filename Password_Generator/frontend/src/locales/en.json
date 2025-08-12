@@ -1,0 +1,11 @@
+{
+  "title": "Secure Password Generator",
+  "length": "Length",
+  "numbers": "Numbers",
+  "uppercase": "Uppercase",
+  "symbols": "Symbols",
+  "generate": "Generate",
+  "error_type": "At least one character type must be selected",
+  "password_placeholder": "The password will appear here",
+  "copy": "Copy"
+}

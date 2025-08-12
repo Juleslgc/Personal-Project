@@ -1,0 +1,11 @@
+{
+  "title": "Générateur de mots de passe sécurisé",
+  "length": "Longueur",
+  "numbers": "Chiffres",
+  "uppercase": "Majuscules",
+  "symbols": "Symboles",
+  "generate": "Générer",
+  "error_type": "Au moins un type de caractère doit être sélectionné",
+  "password_placeholder": "Le mot de passe apparaîtra ici",
+  "copy": "Copier"
+}
