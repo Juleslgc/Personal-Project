@@ -113,7 +113,7 @@ function App() {
       {error && <p className="error">{t('error_type')}</p>}
 
       <div className="password-box">
-      {password || 'The password will appear here'}
+      {password || t('password_placeholder')}
       
     </div>
     {password && (
