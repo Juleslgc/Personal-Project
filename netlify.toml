@@ -1,6 +1,4 @@
 [build]
-  base = "Password_Generator/password-generator-front"
-  publish = "Password_Generator/password-generator-front/build"
+  base = "Password_Generator/frontend"
+  publish = "build"
   command = "npm run build"
-
-  
