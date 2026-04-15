@@ -24,7 +24,7 @@ export default function Dashboard() {
 
   const [alert, setAlert] = useState(false);
 
-  // 🔥 LIVE LOG SYSTEM (stable)
+  // LIVE LOG SYSTEM (stable)
   useEffect(() => {
     const pool: Log[] = [
       {
@@ -63,13 +63,13 @@ export default function Dashboard() {
       setLogs((prev) => {
         const updated = [newLog, ...prev];
 
-        // 🔥 limite anti crash
+        // limite anti crash
         if (updated.length > 15) updated.pop();
 
         return updated;
       });
 
-      // 🔴 trigger alert SOC
+      // trigger alert SOC
       if (!alert && Math.random() > 0.85) {
         setAlert(true);
       }

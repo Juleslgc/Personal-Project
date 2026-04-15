@@ -1,73 +1,109 @@
-# React + TypeScript + Vite
+# 🧠 SOC Simulation Dashboard – Brute Force Investigation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔥 Overview
 
-Currently, two official plugins are available:
+This project is a **SOC (Security Operations Center) simulation dashboard** designed to reproduce a realistic cybersecurity incident investigation workflow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application simulates a **brute force attack detection scenario**, allowing users to analyze logs, identify suspicious activity, and conclude an incident investigation.
 
-## React Compiler
+It is built as a **front-end SOC training / portfolio project** to demonstrate cybersecurity and log analysis skills.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 Objective
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The main goal of this project is to simulate how a SOC analyst:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Detects suspicious login attempts
+- Analyzes raw logs
+- Identifies brute force patterns
+- Confirms security incidents
+- Generates a final incident report
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🧪 Simulated Scenario
+
+### 🔴 Attack Type
+Brute Force Attack (MITRE ATT&CK: T1110)
+
+### 📡 Behavior
+- Multiple failed login attempts
+- Repeated access from the same IP
+- Final successful login after failures
+
+### 🧠 Analyst Task
+- Filter logs
+- Identify suspicious IP
+- Detect attack pattern
+- Validate incident
+
+---
+
+## 🖥️ Features
+
+- 📊 SOC-style dashboard interface
+- 📡 Real-time style log stream (simulated)
+- 🔎 Log filtering (IP / user)
+- 🧠 Automatic brute force detection logic
+- 📄 Incident report generation (CV page)
+- 🧭 Multi-page navigation (Dashboard / Investigation / CV)
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
+- TypeScript
+- React Router DOM
+- Inline CSS (SOC-style UI)
+- Mock data simulation (no backend required)
+
+---
+
+## 📁 Project Structure
+src/    
+├── pages/     
+│ ├── Dashboard.tsx    
+│ ├── Investigation.tsx    
+│ ├── CV.tsx    
+│    
+├── components/    
+│ ├── Sidebar.tsx    
+│    
+├── App.tsx    
+└── main.tsx    
+
+---
+
+## 🚀 How to run locally
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🧠 Key Learning Outcomes
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+This project demonstrates:
+
+- SOC workflow understanding
+- Log analysis fundamentals
+- Security incident investigation process
+- Frontend simulation of cybersecurity tools
+- Basic detection logic implementation
+
+---
+
+## 🎓 Author
+
+Jules Ventura
+
+Aspiring SOC Analyst   
+Seeking a work-study placement in Cybersecurity (Bac+4)   
+Web Development Background

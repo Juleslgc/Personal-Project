@@ -48,14 +48,15 @@ export default function CV() {
         <h3>🧠 Profil</h3>
 
         <p>
-          Passionné par la cybersécurité, je me forme actuellement sur
+          Attiré par la cybersécurité, je me forme actuellement sur
           <b> Let's Defend </b> afin de devenir Analyste SOC.
         </p>
 
         <p>
-          Diplômé en développement web, je recherche une alternance Bac+4 en
-          cybersécurité afin de mobiliser mes compétences techniques et mon
-          sens de l’analyse pour la détection de menaces.
+          Diplômé en développement web, je recherche une alternance dans le cadre d'un Bac+4 en
+          cybersécurité et
+          souhaite mobiliser mes compétences techniques, ma rigueur et mon sens de l’adaptation au service de la
+          détection des menaces et de la protection des systèmes au sein d’une équipe.
         </p>
 
         <p>
@@ -124,7 +125,7 @@ export default function CV() {
         <h4 style={{ marginTop: 20 }}>🛡️ Cyber & Réseau</h4>
         <ul>
           <li>SIEM (notions - Let's Defend)</li>
-          <li>Analyse de logs</li>
+          <li>Analyse de logs (base)</li>
           <li>Wireshark (notions)</li>
           <li>Nmap (notions)</li>
           <li>TCP/IP, HTTP/HTTPS</li>
@@ -219,7 +220,7 @@ personnel (Raspberry Pi) est en cours.
 
     <p>
       🎯 Objectif : détecter des comportements anormaux et structurer une
-      analyse de logs type SOC.
+      analyse de logs.
     </p>
   </div>
 </section>
@@ -230,7 +231,7 @@ personnel (Raspberry Pi) est en cours.
       <section>
         <h3>🏄 Centres d’intérêt</h3>
 
-        <p>Basketball • Surf • Musculation • Course à pied • Biodiversité marine</p>
+        <p>Basketball • Surf • Musculation • Course à pied • Biodiversité marine (requin)</p>
       </section>
 
       {/* BACK BUTTON */}
