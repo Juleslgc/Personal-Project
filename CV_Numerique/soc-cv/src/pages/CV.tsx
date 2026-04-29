@@ -175,9 +175,7 @@ export default function CV() {
     </p>
 
     <p>
-      🚀 Déploiement : frontend sur Netlify, backend initialement sur Heroku
-      (désactivé suite à la fin des offres gratuites). Une migration vers un serveur
-personnel (Raspberry Pi) est en cours.
+      🚀 Déploiement : frontend sur Netlify, backend sur Render.
     </p>
   </div>
 
