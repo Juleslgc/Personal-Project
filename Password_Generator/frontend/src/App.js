@@ -43,7 +43,7 @@ function App() {
         uppercase: strToBoolString(uppercase),
         symbol: strToBoolString(symbol),
       });
-      const response = await fetch(`https://password-generator24-8a11498e3ee1.herokuapp.com/generate-password?${params.toString()}`);
+      const response = await fetch(`https://personal-project-s2iv.onrender.com/generate-password?${params.toString()}`);
       const data = await response.json();
       if (response.ok) {
         setPassword(data.password);
