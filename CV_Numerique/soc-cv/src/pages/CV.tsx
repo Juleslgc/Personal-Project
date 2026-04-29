@@ -19,7 +19,7 @@ export default function CV() {
       <h2>🧠 Analyste SOC - Alternance 2 ans</h2>
 
       <p style={{ color: "#888" }}>
-        Rythme : 1 jour/semaine + 1 semaine tous les 2 mois
+        Rythme D'école : 1 jour/semaine + 1 semaine tous les 2 mois
       </p>
 
       <hr style={{ margin: "20px 0", borderColor: "#222" }} />
