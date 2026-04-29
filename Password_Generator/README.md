@@ -28,7 +28,7 @@ Frontend : ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=re
 
 Backend / API : ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) avec ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 
-Déploiement : Frontend sur ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white), Backend sur ![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
+Déploiement : Frontend sur ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white), Backend sur ![Render](https://img.shields.io/badge/Render-46E3B7?logo=render&logoColor=white)
 
 Langues disponibles : Français et Anglais
 
@@ -72,7 +72,7 @@ Ces pratiques assurent que même si quelqu’un essaie de manipuler l’API via 
 
     Gestion des dépendances et compatibilité avec certaines librairies React.
 
-**2. Déploiement backend sur Heroku**
+**2. Déploiement backend sur Render**
 
     Configuration de Flask et activation du CORS pour permettre la communication avec le frontend.
 
